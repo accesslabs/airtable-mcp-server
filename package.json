@@ -1,13 +1,9 @@
 {
-  "name": "airtable-mcp-server",
+  "name": "@accesslabs/airtable-mcp-server",
   "version": "1.3.0",
   "description": "Airtable Model Context Protocol Server, for allowing AI systems to interact with your Airtable bases",
   "license": "MIT",
-  "author": "Adam Jones (domdomegg)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/domdomegg/airtable-mcp-server.git"
-  },
+  "author": "Access Labs",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -52,5 +48,13 @@
         "always"
       ]
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accesslabs/linear-mcp-server-oauth.git"
   }
 }
